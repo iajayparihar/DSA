@@ -1,0 +1,19 @@
+In python Array can be implemented by two ways.
+
+1.	python Array module
+2.	python Numpy Array
+
+in python array can be -->
+
+Homogenous- collection of similler data type.
+Ex- [1,2,3,4,5]
+
+Heterogenous- collection of different type of data. 
+Ex- [1,"Abhigyan",True,("hello",)]
+
+Type Code for array module-->
+
+"i" interger type 2 byte
+"f" float type    4 byte
+"d" double type   8 byte
+"u" unicode type  2 byte
