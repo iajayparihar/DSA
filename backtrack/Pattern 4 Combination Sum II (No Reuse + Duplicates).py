@@ -19,8 +19,6 @@ Space Complexity:
 - Extra space excluding output: O(n)
 """
 
-nums = [10,1,2,7,6,1,5]
-nums.sort()
 
 def backtrack(start, target, path):
     if target == 0:
@@ -41,4 +39,11 @@ def backtrack(start, target, path):
 
         path.pop()
 
+nums = [10,1,2,7,6,1,5]
+nums.sort()
 backtrack(0,8,[])
+
+# [1, 1, 6]
+# [1, 2, 5]
+# [1, 7]
+# [2, 6]

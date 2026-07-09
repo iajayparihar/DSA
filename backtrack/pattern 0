@@ -1,0 +1,13 @@
+def backtrack(path):
+    if len(path)==len(nums):
+        print(path)
+        return
+    print(path)
+
+    for num in nums:
+        path.append(num)
+        backtrack(path)
+        path.pop()
+
+nums = [1,2,3]
+backtrack([])

@@ -18,7 +18,6 @@ Space Complexity:
 - Extra space excluding output: O(t)
 """
 
-nums = [2,3,6,7]
 
 def backtrack(start, target, path):
     if target == 0:
@@ -33,4 +32,8 @@ def backtrack(start, target, path):
         backtrack(i, target - nums[i], path)
         path.pop()
 
+nums = [2,3,6,7]
 backtrack(0, 7, [])
+
+# [2, 2, 3]
+# [7]

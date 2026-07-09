@@ -19,8 +19,6 @@ Space Complexity:
 - Extra space excluding output: O(n)
 """
 
-nums = [1,2,2]
-nums.sort()
 
 def backtrack(start, path):
     print(path)
@@ -33,4 +31,13 @@ def backtrack(start, path):
         backtrack(i + 1, path)
         path.pop()
 
+nums = [1,2,2]
+nums.sort()
 backtrack(0, [])
+
+# []
+# [1]
+# [1, 2]
+# [1, 2, 2]
+# [2]
+# [2, 2]
